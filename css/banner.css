@@ -16,18 +16,17 @@
     display: block;
 }
 .slide:nth-child(1){ /* Permite seleccionar el "1" elemento del selector (slide), es decir el primer slide q pille en el código */
-    background-image: url("../images/Banner.jpg");
-    background-size: contain;
-
+    background-image: url("../images/Banner1.jpeg");
 }
 .slide:nth-child(2) {
-    background-image: url("../images/Banner.jpg");
-    background-size: contain;
+    background-image: url("../images/Banner2.jpeg");
 }
 
 .slide:nth-child(3) {
-    background-image: url("../images/Banner.jpg");
-    background-size: contain;
+    background-image: url("../images/Banner3.jpeg");
+}
+.slide:nth-child(4) {
+    background-image: url("../images/Banner4.jpeg");
 }
 
 .slide {
