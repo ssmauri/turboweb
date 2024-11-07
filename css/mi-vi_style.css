@@ -1,0 +1,57 @@
+.parra-imag {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.parra-imag img {
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+}
+
+.parra {
+    padding: 10px;
+}
+.parra-it {
+    margin: 10px;
+}
+.parra-it h1 {
+    color: #3183b2;
+    text-align: center;
+    font-size: calc(1vw + 1.5rem);
+}
+.parra-it p {
+    font-size: calc(1vw + 1rem);
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .parra-imag {
+        flex-flow: column;
+    }
+    .parra-imag:nth-child(1) {
+        flex-direction: column-reverse;
+    }
+    .imag   {
+        place-self: center;
+    }
+    .imag img {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .imag, .parra {
+        width: 50vw;
+    }
+    .parra-imag > .parra {
+        align-content: center;
+    }
+    .parra-imag img {
+        width: 100%;
+        height: auto;
+        padding: calc(1vw + 2px);
+    }
+}
