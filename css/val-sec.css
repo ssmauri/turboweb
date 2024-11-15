@@ -1,4 +1,8 @@
 
+.val-box {
+    background-color: #3183b214;
+}
+
 .val-item {
     color: #3183b2;
 
@@ -6,13 +10,14 @@
 .val-item h1 {
     text-align: center;
     font-size: calc(1vw + .7rem);
+    padding: 40px;
 }
 .val-item li {
-    color: black;
+    color: #3183b2;
     list-style-type: decimal;
     font-size: calc(1vw + 0.6rem);
     font-weight: 600;
-    padding: calc(1vw * 0.5 + (5vw*.3));
+    padding: calc(1vw * 0.5 + (5vw*.5));
 }
 
 .val-li p {
@@ -26,7 +31,8 @@
         padding: 25px 150px;
     }
     .val-item h1 {
-        font-size: calc(1vw + 1rem);
+        font-size: calc(1vw + 2rem);
+        padding: 100px;
     }
     .val-item li {
         font-size: calc(1vw + 0.7rem);
