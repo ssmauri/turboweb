@@ -16,7 +16,7 @@
 }
 
 .serImgBox {
-    background-image: url(/images/servicios/servicio_01.png);
+    background-image: url(../images/servicios/servicio_01.png);
     width: 270px;
     height: 340px;
     background-size: cover;
