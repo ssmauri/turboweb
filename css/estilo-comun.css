@@ -22,17 +22,18 @@
 .menu-block li {
   flex-grow: 1;
   text-align-last: center;
-  color:#3183b2;
-  font-size: 1.5rem;
 }
 .link-me {
-    all: unset;
+    color: #3183b2;
+    font-size: 1.5rem;
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
 
-.item-me {
-    padding: 10px;
-}
-.item-me:hover {
+.link-me:hover {
     background-color: #3183b2;
     color: #fff;
     border-radius: 2px;
@@ -130,6 +131,49 @@ max-height:50px
     color: #fff;
     border-color: #fff ;
     display: none;
+}
+
+.container-ini {
+    /* margin: 10px; */
+    width: calc(100vw - 10px);
+    
+}
+.sombra-box {
+    background: rgb(49,131,178);
+    background: linear-gradient(90deg, rgba(49,131,178,0) 15%, rgba(49,131,178,1) 50%, rgba(255,255,255,0) 85%)
+}
+.imgBox-ini {
+    background-image: url(/images/banner/Banner2.jpeg);
+    background-size: cover;
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    align-content: end;
+    border: solid black 2px;
+
+
+}
+.auxBox {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+    padding: 20px;
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-radius: 0 20px 0 0;
+
+}
+.parra-ti{
+    font-size: 2rem;
+    padding: 20px 10px;
+    color: #205675;
+    font-weight: 600;
+    font-family: monospace;
+}
+.parraBox {
+    font-size: 1.5rem;
+    padding: 10px 10px;
 }
     
 

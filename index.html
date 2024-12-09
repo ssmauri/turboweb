@@ -7,37 +7,23 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/banner.css" type="text/css">
     <link rel="stylesheet" href="css/estilo-comun.css" type="text/css">
+    <link rel="stylesheet" href="css/servicios.css" type="text/css">
     <link rel="stylesheet" href="css/mi-vi_style.css" type="text/css">
     <link rel="stylesheet" href="css/val-sec.css" type="text/css">
     <script defer src="/js/en-fo.js"></script>
-
+    <script defer src="https://kit.fontawesome.com/af5c6b5cd4.js" crossorigin="anonymous"></script>
+    <script defer src="js/slides.js"></script>
+     
 
 
 </head>
 <body>
     <a href="https://api.whatsapp.com/send?phone=59162029628" class="btn-wsp" target="_blank"><i class="fa fa-whatsapp icono"></i></a>
     <section> <!-- encabezado -->
-        <div class="encabezado">
-            <div class="subbox-e">
-                <button class="nav-btn"><i class="fa-solid fa-bars"></i></button>
-                <div class="logo">
-                    <img src="images/logo.jfif" alt="Logo"></div>
-            </div>
-            <div class="subbox-e"><span class="menu-tittle">Specialized Electro - Mechanical Precision Services</span></div>
-        </div>
+        <special-header></special-header>
     </section>
     <section> <!-- S menu nav -->
-        <menu>
-            <div class="contenedor-menu">
-                <div class="menu-block">
-                    <li class="item-me"><a class="link-me" href="index.html"><span class="e-me">Inicio</span></a></li>
-                    <li class="item-me"><a class="link-me" href="perfil-de-la-empresa.html"><span class="e-me">Perfil de la empresa</span></a></li>
-                    <li class="item-me"><a class="link-me" href="proyectos.html"><span class="e-me">Proyectos</span></a></li>
-                    <li class="item-me"><a class="link-me" href="publicaciones.html"><span class="e-me">Publicaciones</span></a></li>
-                    <li class="item-me"><a class="link-me" href="contacto.html"><span class="e-me">Contacto</span></a></li>
-                </div>
-            </div>
-        </menu>
+        <special-nav></special-nav>
     </section>
     <section> <!-- S1 Banner -->
         <div class="banner">
@@ -81,96 +67,35 @@
     
         </div>
     </section>
-    <section > <!-- S2 -->
-        <div class="container-box">
-            <div class="parra-imag">
-                <div class="imag">
-                    <img src="images/mision.avif" alt="Misión">
-                </div>
-                <div class="parra">
-                    <div class="parra-it"><h1>Misión</h1></div>
-                    <div class="parra-it"><p>“Generar energía eléctrica aprovechando responsablemente los recursos energéticos disponibles en la región, logrando la satisfacción de nuestros clientes, en un entorno laboral pacífico y cordial con nuestros colaboradores y comunidades vecinas asentadas en la región, generando valor económico, social y ambiental”</p></div>
-                </div>
-            </div>
-            <div class="parra-imag">
-                <div class="parra">
-                    <div class="parra-it"><h1>Visión</h1></div>
-                    <div class="parra-it"><p>Ser una Empresa de Generación de Energía Eléctrica, competitiva e innovadora reconocida por su contribución con el desarrollo sostenible del departamento y el país, con responsabilidad social y ambiental. </p></div>
-                </div>
-                <div class="imag">
-                    <img src="images/vision.avif" alt="vision">
+    <section> <!-- S2 Presentación-->
+        <div class="container-ini">
+            <div class="sombra-box">
+                <div class="imgBox-ini">
+                    <div class="auxBox">
+                        <div class="parra-ti">Bienvenidos a SEMPS</div>
+                        <div class="parraBox">S.E.M.P.S. es una Corporación registrada en Bolivia, constituida en el Año 2000, actualmente somos una organización sólida que cuenta con....</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section> <!-- S3 -->
-        <div class="val-box">
-            <div class="val-item">
-                <h1>En SEMPS S.R.L. estamos comprometidos en fortalecer nuestros valores, porque estamos convencidos que así lograremos nuestra Misión y Visión, además de afirmar nuestra reputación en la región y en el país.</h1>
-            </div>
-            <div class="val-item">
-                <li class="val-li">
-                    Actuar con responsabilidad:
-                    <p> Cumplimos con nuestros objetivos, siendo responsables de los resultados y las consecuencias que puedan tener nuestras decisiones y actos en la empresa, la sociedad y el medio ambiente.</p>
-                </li>
-                <li class="val-li">
-                    Transparencia:
-                    <p> Somos honestos y actuamos basados en principios éticos, sin temor de compartir información de nuestras gestiones técnicas de forma clara, veraz y oportuna.</p>
-                </li>
-                <li class="val-li">
-                    Innovación:
-                    <p> Trabajando en equipo y siendo flexibles al cambio con actitud creativa, proactiva y productiva.</p>
-                </li>
-                <li class="val-li">
-                    Eficiencia en generación de valor:
-                    <p> Actuamos con eficiencia y vocación de servicio, generando valor para la empresa. Encaminando todas nuestras acciones al logro de nuestros objetivos y metas, administrando de forma eficiente los recursos disponibles.</p>
-                </li>
+    <section> <!-- Servicios -->
+        <div class="serv-container">
+            <div class="serv-ti">Nuestros servicios</div>
+            <div class="serImgContainer">
+                <div class="serImgBox"><div class="serDesBox">Pintado</div></div>
+                <div class="serImgBox"><div class="serDesBox">Pintado</div></div>
+                <div class="serImgBox"><div class="serDesBox">Pintado</div></div>
             </div>
         </div>
     </section>
     <footer>
-        <div class="footer-logo">
-            <div class="logo">
-                <img src="images/logo.jfif" alt="Logo">
-            </div>
-            <div class="redes-pie">
-                <a class="link-rs" href="https://api.whatsapp.com/send?phone=59162029628" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-whatsapp fa-2x"></div>
-                </a>
-                <a class="link-rs" href="https://www.facebook.com/semps.bolivia" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-facebook fa-2x"></div>
-                </a>
-                <a class="link-rs" href="https://www.tiktok.com/@semps.bolivia" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-tiktok fa-2x"></div>
-                </a>
-                <a class="link-rs" href="https://x.com/SempsBolivia_" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-twitter fa-2x"></div>
-                </a>
-                <a class="link-rs" href="https://www.instagram.com/semps.bolivia_s.r.l" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-instagram fa-2x"></div>
-                </a>
-                <a class="link-rs" href="https://youtube.com/@SempsBolivia-x2c" target="_blank" rel="noopener noreferrer">
-                    <div class="fa-brands fa-youtube fa-2x"></div>
-                </a>
-            </div>
-        </div>
-        <div id="footer-bottom">
-	        <div class="container">
-	            <div class="aux">
-	            	<a href="http://www.hidrocarburos.gob.bo/" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2019/04/footer-logo-01.jpg" alt=""></a>
-	                <a href="http://www1.abi.bo/" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2019/04/footer-logo-02.jpg" alt=""></a>
-	                <a href="http://www.aetn.gob.bo" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2019/06/logo20AETN20Oficial-01.png" alt=""></a>
-	                <a href="http://www.afcoop.gob.bo/" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2019/04/footer-logo-04.jpg" alt=""></a>
-	                <a href="http://www.cndc.bo/home/index.php" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2019/04/footer-logo-05.jpg" alt=""></a>
-	                <a href="https://www.crece.bo/" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2022/12/LOGO-CRECE-FINAL-01-scaled.jpg" alt=""></a>
-	                <a href="https://medco.com.bo/" target="_blank"><img src="https://www.cre.com.bo/wp-content/uploads/2022/12/MEDCO-01-scaled.jpg" alt=""></a>
-	            </div>
-	        </div>
-	    </div>
+        <special-footer></special-footer>
     </footer>
-    <script src="js/slides.js"></script>
-    <script src="https://kit.fontawesome.com/af5c6b5cd4.js" crossorigin="anonymous"></script>
+   
+    <script src="/js/test.js"></script> 
 </body>
+
 </html>
 
 

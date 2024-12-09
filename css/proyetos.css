@@ -1,0 +1,114 @@
+.proyectBox {
+display: flex;
+justify-content: center;
+
+}
+.imgBox{
+    /* width: 50vw;
+    display: flex;
+    justify-content: center; */
+    animation: vanish 1s;
+}
+.imgContainer {
+    margin: 150px 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: rotate(45deg);
+}
+
+.imgContainer img {
+    transform: rotate(-45deg);
+  }
+.parrabox {
+    margin: auto 0px;
+    padding: 0 50px;
+    width: 0;
+    min-width: 50vw;
+    display: none;
+    animation: vanish 1s;
+}
+
+.tit-parrabox {
+    font-size: 2rem;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+.parra-parrabox{
+    font-size: 1.5rem;
+    text-align: justify;
+
+}
+
+
+.proyectBox:hover > .parrabox{
+    animation: appear-parra 2s;
+    display: block;
+    }
+
+.proyectBox:hover > .imgBox{
+    animation: vanish-img 2s;
+    display: block;
+    }
+
+@keyframes state1 {
+    from {
+        opacity: 0;
+        display: block;
+
+    }
+    to {
+        opacity: 1;
+        display: block;
+
+    }
+}
+@keyframes vanish-img {
+    from {
+        opacity: 0;
+        display: block;
+
+    }
+    to {
+        opacity: 1;
+        display: block;
+
+    }
+}
+
+@keyframes appear-parra {
+    from {
+        opacity: 0;
+        display: none;
+    }
+    to {
+        opacity: 1;
+        display: block;
+    }
+}
+
+@keyframes vanish {
+    from {
+        display: block;
+        opacity: 1;
+    }
+    to {
+        display: none;
+        
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .imgBox {
+        /* padding: 0 0px 0 400px; */
+    }
+    .parrabox{
+        /* padding: 0 450px 0 50px; */
+    }
+}
